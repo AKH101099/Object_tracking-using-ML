@@ -3,7 +3,7 @@ pandas	:	It is used for data analysis. It can take multi-dimensional arrays as i
 NumPy	:	It provides n-dimensional array object. It also provides mathematical functions which can be used in many calculations.
 
 SciPy	: 	A collection of scientific computing functions. It provides advanced linear algebra routines, mathematical function optimization, signal processing, special mathematical functions, and statistical distributions.
-	
+
 matplotlib:	It is a scientific plotting library usually required to visualize data. Importantly visualization is required to analyze the data. You can plot histograms, scatter graphs, lines etc.
 
 scikit-learn:	Itis built on NumPy, SciPy and matplotlib provides tools for data analysis and data mining. It provides classification and clustering algorithms built in and some datasets for practice like iris dataset, Boston house prices dataset, diabetes dataset etc.
@@ -16,8 +16,14 @@ object detection and tracking
 opencv
 import cv2
 
-frame differencing (to detect moving parts) -> Taking difference btw 2 consecutive frames and displaying the difference
+object tracking using frame differencing -> Taking difference btw 2 consecutive frames and displaying the difference
 grayscalling
 
 object tracking using colorspace
 rgb -> hsv -> threshold 
+
+object tracking using bg-substraction -> detection of objects in a static bg
+video compression and motion detection
+bg detect -> model -> subtract from cur_frame
+
+object tracking using camshift algorithm (continuously adaptive mean shift)
