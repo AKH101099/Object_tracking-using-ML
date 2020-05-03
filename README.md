@@ -6,3 +6,5 @@ opencv machine learning python
 4. bg subtractor
 5. camshift
 6. optical flow
+7. face detection
+8. eye detection
