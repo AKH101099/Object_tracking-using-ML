@@ -27,3 +27,9 @@ video compression and motion detection
 bg detect -> model -> subtract from cur_frame
 
 object tracking using camshift algorithm (continuously adaptive mean shift)
+
+optical flow based tracking -> motion vectors (lucas-kanade method)
+
+face detection and tracking (Haar Cascades) -> haarcascade_frontalface_default.xml (data)
+
+easyAI -> an AI framework for two-players abstract games such as Tic Tac Toe, Connect 4, Reversi, etc..
